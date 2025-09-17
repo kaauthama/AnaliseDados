@@ -1,0 +1,109 @@
+import os #importando biblioteca para poder limpar a tela 
+os.system('cls') #limpar tela
+
+
+# frase='Curso em Video Python'
+# print(frase)
+
+# frase='Curso em video'
+# print(frase[3])
+
+# frase='Curso em video'
+# print(frase[:5])
+
+# frase='Curso em video'
+# print(frase[3:13])
+
+#Pulando de dois em dois
+# print(frase[1:21:2])
+
+#contar o numero de caracteres
+# print(frase.count('o'))
+
+#Diferenciar os caracteres maiusculo e minusculo
+#print(frase.count('o'))
+# print(frase.upper().count('O'))
+
+#Saber quantos espaços tem
+# frase='Curso em video'
+# frase=' Curso em Video Python'
+# print(len(frase))
+
+#Retira espaços indesejados
+# print(len(frase.strip()))
+
+#Trocar nesse momento um texto
+# print(frase.replace('Python','de Portugues' ))
+
+# # Trocar uma palavra do 
+# frase=print(frase.replace('Python','de Portugues'))
+# print(frase)
+
+#Qual palavra esta dentro da frase
+# print('Curso'in frase)
+# print('Portugues' in frase)
+
+#Qual a posicao
+# print(frase.find('video'))
+# print(frase.lower().find('video'))
+
+# Criar uma lista
+# print(frase.split())
+
+#Qual o item da lista
+# frase='Curso em Video Python'
+# dividido=(frase.split())
+# print(dividido[0])
+# print(dividido[2])
+# print(dividido[3])
+
+# #Lista dividida e qual item nela
+# print(dividido[2][3])
+
+#nome= nome completo
+# print(input('Qual seu nome completo ?'))
+#nome=input('Qual o seu nome completo?\n')
+
+# Letra maiuscula
+# print(nome.upper())
+
+# Letra minuscula
+# print(nome.lower())
+
+# Quantas letras tem no nome
+# print(len(nome))
+
+# onde esta letras x tem no 
+# print(nome.upper().count('A'))
+# print(nome.lower().count('k'))
+
+# Se a palavra x esta dentro da frase
+# print('ama'in nome)
+
+# #Qual posição a palavra x esta
+# print(nome.find('ama'))
+
+#Limitar a contagem sem espaço
+nome=input('Qual o seu nome completo?\n')
+
+
+
+print(nome.upper())
+print(nome.lower())
+print(len(nome))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
