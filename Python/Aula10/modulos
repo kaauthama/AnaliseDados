@@ -1,0 +1,20 @@
+#import todosmodulos inteiros
+# import bebidas
+# import 
+
+#importe apenas um item do modulo
+#from doce import bolo,pudim
+import math
+num = int(input('digite um numero  '))
+raiz= math.sqrt(num)
+# print('A raiz de{} é igual a {:.2f}'.format(num,raiz))
+# print('A raiz de{} é igual a {}'.format(num,raiz))
+# print('A raiz de{} é igual a {}'.format(num,math.ceil(raiz)))
+# print('A raiz de{} é igual a {.2f}'.format(num,floor (raiz)))
+
+ 
+# from math import sqrt,floor
+# num = int(input('digite um numero  '))
+# raiz= sqrt(num)
+# print('A raiz de{} é igual a {:.2f}'.format(num,float(raiz)))
+
