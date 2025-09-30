@@ -1,0 +1,37 @@
+
+import os
+import time
+
+numero = int(input("Digite um número: "))
+
+if numero % 2 == 0:
+    print("O número é par.")
+else:
+    print("O número é ímpar.")
+
+input("Pressione Enter para limpar o terminal...")
+
+# Limpa o terminal (com lambda só por estilo diferente)
+os.system('cls' if os.name == 'nt' else 'clear')
+
+
+# import os
+# import time
+
+# Entrada do usuário
+# numero = int(input("Digite um número: "))
+
+# # Verificação se é par ou ímpar
+# if numero % 2 == 0:
+#     print("O número é par.")
+# else:
+#     print("O número é ímpar.")
+
+# # Espera 3 segundos antes de limpar o terminal
+# time.sleep(3)
+
+# # Limpa o terminal
+# os.system('cls' if os.name == 'nt' else 'clear')
+
+
+

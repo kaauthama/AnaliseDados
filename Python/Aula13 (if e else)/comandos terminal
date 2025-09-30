@@ -1,0 +1,8 @@
+# import os
+# import time
+
+# # Espera 3 segundos antes de limpar o terminal
+# time.sleep(3)
+
+# # Limpa o terminal
+# os.system('cls' if os.name == 'nt' else 'clear')

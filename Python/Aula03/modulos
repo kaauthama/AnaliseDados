@@ -84,13 +84,43 @@ os.system('cls') #limpar tela
 # print(nome.find('ama'))
 
 #Limitar a contagem sem espaço
-nome=input('Qual o seu nome completo?\n')
+# nome=input('Qual o seu nome completo?\n')
+
+# print(nome.upper(),"todos em maiusculos")
+# print(nome.lower(),"todos em minusculos")
+# nome = nome.split()[0]
+# print("Tem",len(nome) ," LETRAS o primeiro nome")
+# nome = nome.split()[0]
+# print("Primeiro nome:", nome)
+# print(len(nome))
+
+# Nome completo
+#nome_completo = "Kaauthama de Amorim Furtado"
+
+#  Divide o nome por espaços e pega o primeiro item
+#  primeiro_nome = nome_completo.split()[0]
+
+# Exibe o resultado
+# print("Primeiro nome:", primeiro_nome)
+# Entrada do usuário
+nome = input('Qual o seu nome completo?\n')
+
+# Mostra o nome em maiúsculas
+print(nome.upper(), "→ todos em maiúsculas")
+
+# Mostra o nome em minúsculas
+print(nome.lower(), "→ todos em minúsculas")
+
+# Calcula o total de letras (sem contar espaços)
+nome_sem_espacos = nome.replace(" ", "")
+print("O nome completo tem", len(nome_sem_espacos), "letras (sem contar espaços).")
+
+# Pega o primeiro nome
+primeiro_nome = nome.split()[0]
+print("Primeiro nome:", primeiro_nome)
+print("O primeiro nome tem", len(primeiro_nome), "letras.")
 
 
-
-print(nome.upper())
-print(nome.lower())
-print(len(nome))
 
  
 

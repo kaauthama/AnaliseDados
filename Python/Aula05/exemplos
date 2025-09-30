@@ -1,0 +1,47 @@
+# numero = int(input("Digite um número: "))
+
+# if numero % 2 == 0:
+#     print("O número é par.")
+# else:
+#     print("O número é ímpar.")
+# # Alguma ação no programa
+# # print("Executando o código...")
+# # input("Pressione Enter para continuar...")
+
+# # Limpa o terminal dependendo do sistema operacional
+# def limpar_terminal():
+#     if os.name == 'nt':  # Windows
+#         os.system('cls')
+#     else:  # Linux ou macOS
+#         os.system('clear')
+
+# numero = int(input("Digite um número: "))
+
+# if numero % 2 == 0:
+#     print("O número é par.")
+# else:
+#     print("O número é ímpar.")
+
+
+
+# Função para limpar o terminal
+# def limpar_terminal():
+#     if os.name == 'nt':  # Windows
+#         os.system('cls')
+#     else:  # Linux ou macOS
+#         os.system('clear')
+import os
+
+# Código principal
+numero = int(input("Digite um número: "))
+
+if numero % 2 == 0:
+    print("O número é par.")
+else:
+    print("O número é ímpar.")
+
+input("Pressione Enter para limpar o terminal...")
+
+# Limpa o terminal (com lambda só por estilo diferente)
+limpar = lambda: os.system('cls' if os.name == 'nt' else 'clear')
+limpar()

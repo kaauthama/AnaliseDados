@@ -1,0 +1,50 @@
+from PIL import Image
+
+# Define o tamanho de cada pixel "grande"
+PIXEL_SIZE = 20
+
+# Mapa do gato (16x16), onde cada número representa uma cor
+# (bem simples e estilizado)
+gato_pixels = [
+    "................",
+    "......11........",
+    ".....1221.......",
+    ".....1221.......",
+    "....112211......",
+    "...12211221.....",
+    "...12211221.....",
+    "...11111111.....",
+    "..1.133331.1....",
+    "..11133331111...",
+    "...113333311....",
+    "....11111111....",
+    "....1....1.1....",
+    "...11....11.....",
+    "...11....11.....",
+    "...00....00....."
+]
+
+# Cores em RGB
+cores = {
+    "1": (0, 0, 0),         # preto
+    "2": (150, 75, 0),      # marrom
+    "3": (255, 192, 203),   # rosa (orelhas)
+    "0": (100, 100, 100),   # cinza (patas)
+    ".": (255, 255, 255),   # branco (fundo)
+}
+
+# Cria a imagem final
+img = Image.new("RGB", (len(gato_pixels[0]) * PIXEL_SIZE, len(gato_pixels) * PIXEL_SIZE), "white")
+pixels = img.load()
+
+# Desenha os "pixels grandes"
+for y, linha in enumerate(gato_pixels):
+    for x, cor_codigo in enumerate(linha):
+        cor = cores.get(cor_codigo, (255, 255, 255))  # branco padrão
+        for i in range(PIXEL_SIZE):
+            for j in range(PIXEL_SIZE):
+                pixels[x * PIXEL_SIZE + i, y * PIXEL_SIZE + j] = cor
+
+# Salva e exibe a imagem
+img.save("gato_pixelado.png")
+img.show()
