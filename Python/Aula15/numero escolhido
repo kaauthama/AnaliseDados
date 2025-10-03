@@ -1,0 +1,27 @@
+import random  # biblioteca para gerar números aleatórios
+
+print("🎲 Vou pensar em um número entre 0 e 5... tente adivinhar!")
+
+# Computador "pensa" em um número
+numero_computador = random.randint(0, 5)
+
+# Usuário faz a tentativa
+numero_usuario = int(input("Digite um número de 0 a 5: "))
+
+# Verificação
+if numero_usuario == numero_computador:
+    print("🎉 Parabéns! Você acertou! Eu pensei no número", numero_computador)
+else:
+    print("😢 Você errou! Eu pensei no número", numero_computador)
+
+
+# Desafio 029 - Radar eletrônico 🚓
+
+velocidade = float(input("Qual é a velocidade atual do carro? "))
+
+if velocidade > 80:
+    print("🚨 Você foi multado por excesso de velocidade!")
+    multa = (velocidade - 80) * 7
+    print(f"Valor da multa: R${multa:.2f}")
+else:
+    print("✅ Muito bem! Você está dentro do limite de velocidade.")

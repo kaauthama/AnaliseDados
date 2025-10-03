@@ -1,0 +1,80 @@
+# print("Você está em uma estrada. Pode seguir para a DIREITA ou para a ESQUERDA.")
+
+# escolha = input("Digite 'direita' ou 'esquerda': ").lower()
+
+# if escolha == "direita":
+#     print("Você entrou em uma cidade movimentada.")
+#     escolha2 = input("Quer ir para o 'mercado' ou para a 'praça'? ").lower()
+#     if escolha2 == "mercado":
+#         print("Você comprou frutas fresquinhas! 🍎🍊")
+#     else:
+#         print("Você viu uma apresentação de músicos na praça. 🎶")
+# else:
+#     print("Você entrou em uma floresta sombria.")
+#     escolha2 = input("Quer seguir pela 'trilha' ou pelo 'rio'? ").lower()
+#     if escolha2 == "trilha":
+#         print("Você encontrou uma cabana abandonada. 🏚️")
+#     else:
+#         print("Você viu uma cachoeira incrível. 💦")
+
+
+# print("Você está em uma estrada. Pode seguir para a DIREITA ou para a ESQUERDA.")
+
+# escolha = input("Digite 'direita' ou 'esquerda': ").lower()
+
+# if escolha == "direita":
+#     print("Você virou para a direita e encontrou uma linda praia. 🏖️")
+# else:
+#     print("Você virou para a esquerda e entrou em uma floresta misteriosa. 🌳")
+
+
+# usuario = input("Digite o usuário: ")
+# senha = input("Digite a senha: ")
+
+# if usuario == "admin" and senha == "1234":
+#     print("Login realizado com sucesso!")
+# else:
+#     print("Usuário ou senha inválidos.")
+
+
+# print("🚗 Você está em uma estrada.")
+# print("Se percorrer até 5.0 km, você vira à ESQUERDA.")
+# print("Se percorrer mais de 5.0 km, você vira à DIREITA.")
+
+# distancia = float(input("Digite quantos km você quer percorrer: "))
+
+# if distancia <= 5.0:
+#     print(f"Você andou {distancia} km e virou à ESQUERDA. 🌳")
+# else:
+#     print(f"Você andou {distancia} km e virou à DIREITA. 🏙️")
+
+print("Você está em uma estrada. Escolha seu caminho:")
+print("1.0 = Direita")
+print("2.0 = Esquerda")
+
+escolha = float(input("Digite sua escolha: "))
+
+# if escolha == 1.0:
+#     print("Você foi para a direita e chegou a uma cidade.")
+#     caminho = float(input("Digite 1.0 para ir ao mercado ou 2.0 para ir à praça: "))
+#     if caminho == 1.0:
+#         print("Você comprou frutas deliciosas no mercado. 🍊")
+#     else:
+#         print("Você assistiu um show na praça. 🎶")
+# else:
+#     print("Você foi para a esquerda e entrou em uma floresta.")
+#     caminho = float(input("Digite 1.0 para seguir pela trilha ou 2.0 para seguir pelo rio: "))
+#     if caminho == 1.0:
+#         print("Você encontrou uma cabana abandonada. 🏚️")
+#     else:
+#         print("Você achou uma cachoeira incrível. 💦")
+
+
+# print("Você está em uma estrada. Pode seguir para a DIREITA (digite 1.0) ou para a ESQUERDA (digite 2.0).")
+
+# escolha = float(input("Digite 1.0 para direita ou 2.0 para esquerda: "))
+
+# if escolha == 1.0:
+#     print("Você foi para a direita e encontrou um lago tranquilo. 🌊")
+# else:
+#     print("Você foi para a esquerda e encontrou uma montanha alta. ⛰️")
