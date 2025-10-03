@@ -1,0 +1,46 @@
+# nota = float(input("Digite a nota do aluno: "))
+
+# if nota >= 7:
+#     print("Aprovado!")
+# else:
+#     print("Reprovado!")
+
+# numero = int(input("Digite um número: "))
+
+# idade = int(input("Digite sua idade: "))
+
+# if idade >= 18:
+#     print("Você é maior de idade.")
+# else:
+#     print("Você é menor de idade.")
+
+# numero = int(input("Digite um número: "))
+
+# if numero >= 0:
+#     print("O número é positivo.")
+# else:
+#     print("O número é negativo.")
+
+usuario = input("Digite o usuário: ")
+senha = input("Digite a senha: ")
+
+# if usuario == "admin" and senha == "1234":
+#     print("Login realizado com sucesso!")
+# else:
+#     print("Usuário ou senha inválidos.")
+
+# compra = float(input("Digite o valor da compra: "))
+
+# if compra >= 100:
+#     print("Você ganhou 10% de desconto!")
+#     desconto = compra * 0.10
+#     total = compra - desconto
+#     print("Total a pagar:", total)
+# else:
+#     print("Sem desconto. Total a pagar:", compra)
+
+# idade = int(input("Digite sua idade: "))
+# if idade >= 18:
+#     print("Você pode tirar a carteira de motorista.")
+# else:
+#     print("Você ainda não pode dirigir.")
