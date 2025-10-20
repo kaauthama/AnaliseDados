@@ -1,0 +1,32 @@
+# print("=== Simulador de Movimento ===")
+# print("Opções: direita | esquerda | frente | trás | parar")
+
+# direcao = input("Digite a direção: ").lower()
+
+# if direcao == "direita":
+#     distancia = float(input("Quantos metros quer andar para a direita? "))
+#     print(f"➡️ Você andou {distancia} metros para a direita!")
+
+# elif direcao == "esquerda":
+#     distancia = float(input("Quantos metros quer andar para a esquerda? "))
+#     print(f"⬅️ Você andou {distancia} metros para a esquerda!")
+
+# elif direcao == "frente":
+#     distancia = float(input("Quantos metros quer andar para frente? "))
+#     if distancia > 10:
+#         print(f"🚀 Você correu {distancia} metros para frente! Impressionante!")
+#     else:
+#         print(f"🏃‍♂️ Você andou {distancia} metros para frente.")
+        
+# elif direcao == "trás":
+#     distancia = float(input("Quantos metros quer andar para trás? "))
+#     if distancia < 5:
+#         print(f"↩️ Você recuou {distancia} metros com cuidado.")
+#     else:
+#         print(f"⚠️ Cuidado! {distancia} metros é muito para trás!")
+
+# elif direcao == "parar":
+#     print("🛑 Você decidiu parar. Fim do movimento.")
+
+# else:
+#     print("❌ Opção inválida. Tente novamente digitando uma direção válida.")

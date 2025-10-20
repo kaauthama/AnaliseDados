@@ -1,0 +1,51 @@
+# O usuário informa a distância, e o programa decide o que fazer
+distancia = float(input("Digite a distância em metros: "))
+
+if distancia > 10:
+    print("Distância longa! Diminua a velocidade.")
+elif distancia >= 5:
+    print("Distância média, mantenha o ritmo.")
+else:
+    print("Distância curta, prepare-se para parar.")
+
+
+# O usuário informa a direção e a distância
+direcao = input("Digite a direção (direita ou esquerda): ").lower()
+distancia = float(input("Digite a distância em metros: "))
+
+if direcao == "direita":
+    print(f"Você andou {distancia} metros para a direita.")
+elif direcao == "esquerda":
+    print(f"Você andou {distancia} metros para a esquerda.")
+else:
+    print("Direção inválida.")
+
+#  Verificando habilitação
+idade = int(input("Digite sua idade: "))
+
+if idade >= 18:
+    print("Você pode dirigir!")
+else:
+    print("Você ainda não pode dirigir.")
+
+
+#  Verificando se o número é positivo, negativo ou zero
+
+numero = float(input("Digite um número: "))
+
+if numero > 0:
+    print("O número é positivo.")
+elif numero == 0:
+    print("O número é zero.")
+else:
+    print("O número é negativo.")
+
+# Verificando se um número é positivo ou negativo
+
+numero = float(input("Digite um número: "))
+
+if numero > 0:
+    print("O número é positivo.")
+else:
+    print("O número é negativo ou zero.")
+

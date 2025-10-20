@@ -1,0 +1,102 @@
+numero = int(input("Digite um número: "))
+
+if numero % 2 == 0:
+    tipo = "PAR"
+else:
+    tipo = "ÍMPAR"
+
+if numero > 0:
+    sinal = "POSITIVO"
+elif numero < 0:
+    sinal = "NEGATIVO"
+else:
+    sinal = "ZERO"
+
+print(f"O número {numero} é {tipo} e {sinal}.")
+
+
+
+numero = float(input("Digite um número: "))
+
+if numero.is_integer():
+    if numero % 2 == 0:
+        print(f"O número {int(numero)} é PAR.")
+    else:
+        print(f"O número {int(numero)} é ÍMPAR.")
+else:
+    print(f"O número {numero} não é inteiro, então não dá para saber se é par ou ímpar.")
+
+
+
+numeros = [3, 8, 15, 22, 41, 60]
+
+for numero in numeros:
+    if numero % 2 == 0:
+        print(f"{numero} é PAR.")
+    else:
+        print(f"{numero} é ÍMPAR.")
+
+
+
+while True:
+    entrada = input("Digite um número (ou 'sair' para encerrar): ")
+
+    if entrada.lower() == "sair":
+        print("Encerrando o programa...")
+        break
+
+    numero = int(entrada)
+
+    if numero % 2 == 0:
+        print(f"O número {numero} é PAR.\n")
+    else:
+        print(f"O número {numero} é ÍMPAR.\n")
+
+
+
+
+        numero = int(input("Digite um número: "))
+
+if numero % 2 == 0:
+    print(f"O número {numero} é PAR.")
+else:
+    print(f"O número {numero} é ÍMPAR.")
+numero = int(input("Digite um número: "))
+
+if numero % 2 == 0:
+    print(f"O número {numero} é PAR.")
+else:
+    print(f"O número {numero} é ÍMPAR.")
+
+
+
+numero = float(input("Digite um número: "))
+
+if numero % 2 == 0:
+    print(f"O número {numero} é PAR.")
+elif numero % 2 == 1:
+    print(f"O número {numero} é ÍMPAR.")
+else:
+    print("Esse número não é inteiro, então não dá para dizer se é par ou ímpar.")
+
+
+
+numero = float(input("Digite um número: "))
+
+if numero % 2 == 0:
+    print(f"O número {numero} é PAR.")
+elif numero % 2 == 1:
+    print(f"O número {numero} é ÍMPAR.")
+else:
+    print("Esse número não é inteiro, então não dá para dizer se é par ou ímpar.")
+
+
+
+
+numero = int(input("Digite um número: "))
+
+if numero % 2 == 0:
+    print(f"O número {numero} é PAR.")
+else:
+    print(f"O número {numero} é ÍMPAR.")
+
